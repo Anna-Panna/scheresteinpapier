@@ -4,11 +4,17 @@ input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     punkt += 1
     if (punkt == 1) {
         basic.setLedColor(0x00ff00)
+        basic.pause(2000)
+        basic.turnRgbLedOff()
     } else if (punkt == 2) {
         basic.setLedColors(0x00ff00, 0x00ff00, 0xffffff)
+        basic.pause(2000)
+        basic.turnRgbLedOff()
     } else if (punkt == 3) {
         music.playTone(440, music.beat(BeatFraction.Whole))
         basic.setLedColors(0x00ff00, 0x00ff00, 0x00ff00)
+        basic.pause(2000)
+        basic.turnRgbLedOff()
     } else {
         basic.turnRgbLedOff()
     }

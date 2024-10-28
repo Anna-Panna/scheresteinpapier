@@ -12,8 +12,8 @@
         . . . . .
         `</field></block></statement><next><block type="controls_if" id="@1oKjP/{DYe/NDmR.m=]"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="06Op9jsv*4#B)f5o+0^U"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="@6U{Xpf$2y*i#4.ZGYU,"><field name="VAR" id="|l,E?x0=;8:H`/k$M;6r">zeichen</field></block></value><value name="B"><shadow type="math_number" id="1{vSw/ZV!.#Vor/C=|jf"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="L,`EkO9P3;1k:;SnAiif"><field name="LEDS">`
         # # # # # 
-        # . . . # 
-        # . . . # 
-        # . . . # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
         # # # # #
         `</field></block></statement><next><block type="device_pause" id="9],OjE9jj(~pT##^c%j9"><value name="pause"><shadow type="timePicker" id="J{6#MRbh$nM1Hw|]b^aL"><field name="ms">2000</field></shadow></value><next><block type="device_clear_display" id="RbuAaV-_^?om:$JcC~qA"></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>

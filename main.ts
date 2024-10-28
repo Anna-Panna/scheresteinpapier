@@ -42,9 +42,9 @@ input.onGesture(Gesture.Shake, function () {
     if (zeichen == 3) {
         basic.showLeds(`
             # # # # #
-            # . . . #
-            # . . . #
-            # . . . #
+            # # # # #
+            # # # # #
+            # # # # #
             # # # # #
             `)
     }

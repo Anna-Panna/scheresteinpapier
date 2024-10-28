@@ -7,7 +7,7 @@
         `</field></block></statement><next><block type="controls_if" id="S]:IVDJ.3vfS!_Ps-;0f"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="/V5e71exJeKtH%=omrZ_"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="4lZ:VP8UDT-@QYLPJFm}"><field name="VAR" id="|l,E?x0=;8:H`/k$M;6r">zeichen</field></block></value><value name="B"><shadow type="math_number" id=")c|1^|];sH(f`P)`*)Re"><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="/*#1$AEMNi2O{7z%ri!H"><field name="LEDS">`
         . . . . . 
         . # # # . 
-        . # . # . 
+        . # # # . 
         . # # # . 
         . . . . .
         `</field></block></statement><next><block type="controls_if" id="@1oKjP/{DYe/NDmR.m=]"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="06Op9jsv*4#B)f5o+0^U"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="@6U{Xpf$2y*i#4.ZGYU,"><field name="VAR" id="|l,E?x0=;8:H`/k$M;6r">zeichen</field></block></value><value name="B"><shadow type="math_number" id="1{vSw/ZV!.#Vor/C=|jf"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="L,`EkO9P3;1k:;SnAiif"><field name="LEDS">`
